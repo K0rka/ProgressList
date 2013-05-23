@@ -19,14 +19,14 @@
 		67DFE5C6174E54AF003E09B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67DFE5C5174E54AF003E09B1 /* Default-568h@2x.png */; };
 		67DFE5C9174E54AF003E09B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DFE5C7174E54AF003E09B1 /* MainStoryboard.storyboard */; };
 		67DFE5CC174E54AF003E09B1 /* ProgressList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67DFE5CA174E54AF003E09B1 /* ProgressList.xcdatamodeld */; };
-		67DFE5CF174E54AF003E09B1 /* PL_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DFE5CE174E54AF003E09B1 /* PL_MasterViewController.m */; };
-		67DFE5D2174E54AF003E09B1 /* PL_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DFE5D1174E54AF003E09B1 /* PL_DetailViewController.m */; };
 		67DFE5DA174E54AF003E09B1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFE5D9174E54AF003E09B1 /* SenTestingKit.framework */; };
 		67DFE5DB174E54AF003E09B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFE5AD174E54AF003E09B1 /* UIKit.framework */; };
 		67DFE5DC174E54AF003E09B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFE5AF174E54AF003E09B1 /* Foundation.framework */; };
 		67DFE5DD174E54AF003E09B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFE5B3174E54AF003E09B1 /* CoreData.framework */; };
 		67DFE5E5174E54AF003E09B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67DFE5E3174E54AF003E09B1 /* InfoPlist.strings */; };
 		67DFE5E8174E54AF003E09B1 /* ProgressListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DFE5E7174E54AF003E09B1 /* ProgressListTests.m */; };
+		67DFE5F5174E5791003E09B1 /* PL_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DFE5F4174E5791003E09B1 /* PL_MasterViewController.m */; };
+		67DFE5FA174E57DD003E09B1 /* PL_TabItem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DFE5F9174E57DD003E09B1 /* PL_TabItem1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +56,16 @@
 		67DFE5C5174E54AF003E09B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		67DFE5C8174E54AF003E09B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		67DFE5CB174E54AF003E09B1 /* ProgressList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProgressList.xcdatamodel; sourceTree = "<group>"; };
-		67DFE5CD174E54AF003E09B1 /* PL_MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_MasterViewController.h; sourceTree = "<group>"; };
-		67DFE5CE174E54AF003E09B1 /* PL_MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_MasterViewController.m; sourceTree = "<group>"; };
-		67DFE5D0174E54AF003E09B1 /* PL_DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL_DetailViewController.h; sourceTree = "<group>"; };
-		67DFE5D1174E54AF003E09B1 /* PL_DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PL_DetailViewController.m; sourceTree = "<group>"; };
 		67DFE5D8174E54AF003E09B1 /* ProgressListTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressListTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DFE5D9174E54AF003E09B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		67DFE5E2174E54AF003E09B1 /* ProgressListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgressListTests-Info.plist"; sourceTree = "<group>"; };
 		67DFE5E4174E54AF003E09B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67DFE5E6174E54AF003E09B1 /* ProgressListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressListTests.h; sourceTree = "<group>"; };
 		67DFE5E7174E54AF003E09B1 /* ProgressListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressListTests.m; sourceTree = "<group>"; };
+		67DFE5F3174E5791003E09B1 /* PL_MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_MasterViewController.h; sourceTree = "<group>"; };
+		67DFE5F4174E5791003E09B1 /* PL_MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_MasterViewController.m; sourceTree = "<group>"; };
+		67DFE5F8174E57DD003E09B1 /* PL_TabItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PL_TabItem1.h; sourceTree = "<group>"; };
+		67DFE5F9174E57DD003E09B1 /* PL_TabItem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PL_TabItem1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +131,9 @@
 				67DFE5BE174E54AF003E09B1 /* PL_AppDelegate.h */,
 				67DFE5BF174E54AF003E09B1 /* PL_AppDelegate.m */,
 				67DFE5C7174E54AF003E09B1 /* MainStoryboard.storyboard */,
-				67DFE5CD174E54AF003E09B1 /* PL_MasterViewController.h */,
-				67DFE5CE174E54AF003E09B1 /* PL_MasterViewController.m */,
-				67DFE5D0174E54AF003E09B1 /* PL_DetailViewController.h */,
-				67DFE5D1174E54AF003E09B1 /* PL_DetailViewController.m */,
+				67DFE5F2174E5791003E09B1 /* MainViewController */,
 				67DFE5CA174E54AF003E09B1 /* ProgressList.xcdatamodeld */,
+				67DFE5F6174E57B6003E09B1 /* TabItem1 */,
 				67DFE5B6174E54AF003E09B1 /* Supporting Files */,
 			);
 			path = ProgressList;
@@ -172,6 +170,24 @@
 				67DFE5E3174E54AF003E09B1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67DFE5F2174E5791003E09B1 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67DFE5F3174E5791003E09B1 /* PL_MasterViewController.h */,
+				67DFE5F4174E5791003E09B1 /* PL_MasterViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		67DFE5F6174E57B6003E09B1 /* TabItem1 */ = {
+			isa = PBXGroup;
+			children = (
+				67DFE5F8174E57DD003E09B1 /* PL_TabItem1.h */,
+				67DFE5F9174E57DD003E09B1 /* PL_TabItem1.m */,
+			);
+			path = TabItem1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,8 +304,8 @@
 				67DFE5BC174E54AF003E09B1 /* main.m in Sources */,
 				67DFE5C0174E54AF003E09B1 /* PL_AppDelegate.m in Sources */,
 				67DFE5CC174E54AF003E09B1 /* ProgressList.xcdatamodeld in Sources */,
-				67DFE5CF174E54AF003E09B1 /* PL_MasterViewController.m in Sources */,
-				67DFE5D2174E54AF003E09B1 /* PL_DetailViewController.m in Sources */,
+				67DFE5F5174E5791003E09B1 /* PL_MasterViewController.m in Sources */,
+				67DFE5FA174E57DD003E09B1 /* PL_TabItem1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

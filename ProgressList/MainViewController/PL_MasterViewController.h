@@ -10,7 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
-@interface PL_MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface PL_MasterViewController : UITabBarController
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
